@@ -1,0 +1,17 @@
+server:
+  port: 8092
+spring:
+  application:
+    name: glintranet_cvteck
+  datasource:
+    password:
+    url: jdbc:mysql://localhost:3306/glintranet_cvteck?useSSL=false
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: false
+
